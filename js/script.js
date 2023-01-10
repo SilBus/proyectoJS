@@ -31,37 +31,7 @@ console.log(`producto ${index} con nombre ${nombre} y monto ${monto} El total de
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-//for(let producto=1; producto <= 5; producto++){
-//    let productoSelecionado = prompt("Seleccione 5 (cinco) productos del stock")
-    
-//    if(productoSelecionado == ""){
-//        break;
-//    }else(
-//        alert("Seleccionaste" + " " + producto + " " + "productos")
-//    )
-//}
-
-
-//function multiplicar(monto , IVA) {
-//    let total = monto * IVA
-//    return total
-    
-//}
-//let resultado = multiplicar(5,1.21)
-//console.log(`el valor total IVA incluido es de ${resultado} pesos`)
-
-
-
+function saludo(agradecimiento) {
+    alert(`MUCHAS GRACIAS POR CONFIAR EN NOSOTROS ${agradecimiento}`)
+}
+let valor = saludo (nombre + " " + apellido) 
